@@ -112,7 +112,7 @@ void index_occurrence(int *array_1D, int k){
         index++;
         if(index == k){
         printf("\n");
-        printf("There is no such value, my man.");
+        printf("The index occurrence was not found.");
         }
 
 
