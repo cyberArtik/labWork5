@@ -100,23 +100,13 @@ void index_occurrence(int *array_1D, int k){
 
 
         if(target == *(array_1D + i)){
-            index--;
-            first++;
-            if (first == 1){
-                    printf("\n");
-                printf("The index is: %d", i);
-            }
-
+            printf("\n");
+            printf("The index is: %d", i);
+            return;
         }
-
-        index++;
-        if(index == k){
-        printf("\n");
-        printf("The index occurrence was not found.");
-        }
-
 
     }
+    printf("The index occurrence was not found.");
     printf("\n");
 
 }
